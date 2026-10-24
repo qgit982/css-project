@@ -1,16 +1,21 @@
 body {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .first-part {
     background-color:rgb(27, 45, 65) ;
     color:white;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .upper-tab {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 30px;
+    
 }
 
 ul {
@@ -28,7 +33,130 @@ ul {
 
 .top-text {
     display: flex;
+    justify-content: space-evenly;
 
 }
 
+.hidari {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+
+.awesome {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+button {
+    background-color: rgb(26, 111, 238);
+    color: white;
+    border: 0;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 6px; 
+}
 /* test */
+
+.box {
+    width: 80px;
+    height: 80px;
+    border: 3px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+.header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.second-part {
+    background-color: white;
+    color: rgb(1, 5, 61);
+    padding: 40px;
+}
+
+.hako {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.third-part {
+    background-color: rgb(231, 231, 231);
+    color:rgb(3, 35, 65);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+}
+
+.inspiration {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.odin {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 600px;
+}
+
+.thor {
+    font-weight: 900;
+}
+
+.forth-part {
+    background-color: white;
+    padding: 80px 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    background-color: rgb(47, 117, 209);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 60px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    gap: 40px;
+
+}
+
+.action {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.bottom {
+    background-color: rgb(47, 117, 209);
+    border: 2px solid white;
+}
+
+
+.copy {
+    background-color:rgb(27, 45, 65);
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
